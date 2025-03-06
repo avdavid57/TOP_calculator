@@ -1,8 +1,8 @@
 function operate() {
 
-    const firstNumber = prompt("Enter the first number: ");
-    const operator = prompt("Enter the operator: ");
-    const secondNumber = prompt("Enter the second number: ");
+    let firstNumber;
+    let operator;
+    let secondNumber;
     let calculatedValue = 0;
 
     switch (operator) {
