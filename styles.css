@@ -4,8 +4,8 @@
     border-radius: 2%;
     border-color: rgb(141, 141, 141); 
     background-color: lightgrey;
-    height: 600px;
-    width: 500px;
+    height: 350px;
+    width: 250px;
 }
 
 #textbox-container {
@@ -13,7 +13,20 @@
     border-width: 2px;
     background-color: white;
     height: 40px;
-    width: 350px;
+    width: 160px;
+    margin: 0 10px 0 0px;
+}
+
+#calculator-screen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.clear-button {
+    width: 50px;
+    height: 50px;
 }
 
 .calculator-button {
@@ -23,6 +36,7 @@
 
 #calculator-keypad {
     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
 }
